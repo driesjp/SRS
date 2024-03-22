@@ -1,0 +1,35 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  border: 1px solid #FFF;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #464c55;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2d8f0059;
+  color: white;
+}
+
+
+.cell-small {
+  width: 100px;
+  height: 50px;
+}
+
+.cell-medium {
+  width: 500px;
+  height: 50px;
+}
+
+.cell-large {
+  width: 800px;
+  height: 50px;
+}

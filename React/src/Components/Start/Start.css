@@ -1,0 +1,44 @@
+.Start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Optional: if you want the Start component to fill the viewport height */
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* New wrapper style */
+.Logo-wrapper {
+  position: relative;
+  display: inline-block; 
+}
+
+.Overlay-image {
+  position: absolute;
+  transform: rotate(355deg);
+  top: 0;
+  left: 35vmin;
+  height: 30vmin; /* Matches the .App-logo height to cover it fully */
+  pointer-events: auto; /* Ensures clicks pass through to the logo if needed */
+  opacity: 1.0; /* Optional: makes the overlay semi-transparent */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

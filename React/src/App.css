@@ -1,0 +1,36 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  text-align: center;
+}
+
+a { /* Target all links within .Start */
+  color: white; /* Set link color to white */
+}
+
+.Menu {
+  display: flex;
+  justify-content: center; /* Centers menu items horizontally */
+  list-style-type: none; /* Removes bullet points from list items */
+  padding: 0; /* Removes padding */
+}
+
+.Menu li {
+  margin-right: 20px; /* Adds space between menu items; adjust as needed */
+}
+
+.Menu li:last-child {
+  margin-right: 0; /* Removes margin from the last item */
+}
