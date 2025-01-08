@@ -5,7 +5,6 @@ Spaced repetition is an evidence-based learning technique that is usually perfor
 The purpose behind building this custom SRS platform is to build the foundation to go beyond traditional SRS algorithms.
 With, in time, incorporating factors such as user intelligence, interest, and motivation into the scheduling logic.
 This personalised approach aims to optimise the learning experience and efficiency for individual users, tailoring the difficulty and review intervals more closely to their unique learning pace and needs.
-The planned domain for this project is http://www.opencards.be
 
 
 # Front-end
